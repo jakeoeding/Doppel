@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doppel", "src\Doppel.csproj", "{6DE5EFDA-4100-4A6C-A4CB-24757B5AD9E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doppel.Tests", "tests\Doppel.Tests.csproj", "{FB97A55C-42D9-4477-A2B8-B915EA5E8857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE5EFDA-4100-4A6C-A4CB-24757B5AD9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE5EFDA-4100-4A6C-A4CB-24757B5AD9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE5EFDA-4100-4A6C-A4CB-24757B5AD9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE5EFDA-4100-4A6C-A4CB-24757B5AD9E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB97A55C-42D9-4477-A2B8-B915EA5E8857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB97A55C-42D9-4477-A2B8-B915EA5E8857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB97A55C-42D9-4477-A2B8-B915EA5E8857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB97A55C-42D9-4477-A2B8-B915EA5E8857}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BF29C37-F89C-4DC2-8ED3-DF1AF6F3B38B}
+	EndGlobalSection
+EndGlobal
