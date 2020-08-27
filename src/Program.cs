@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Doppel
@@ -19,6 +20,12 @@ namespace Doppel
                 return;
             }
 
+            string rawText1 = File.ReadAllText(args[0]);
+            string rawText2 = File.ReadAllText(args[1]);
+
+            var parser = new TextParser();
+            IDictionary<string, int> wordCounts1 = parser.CountWords(rawText1);
+            IDictionary<string, int> wordCounts2 = parser.CountWords(rawText2);
         }
     }
 }
