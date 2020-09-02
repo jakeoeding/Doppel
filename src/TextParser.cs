@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace Doppel
 {
-    class TextParser
+    public class TextParser
     {
         public IDictionary<string, int> CountWords(string text)
         {
@@ -39,12 +39,12 @@ namespace Doppel
 
         public string RemoveLineEndings(string text)
         {
-            return text.Replace("\n", " ").Replace("\r", " ");
+            return text.Replace("\n", " ").Replace("\r", " ").Trim();
         }
 
         public string RemovePunctuation(string text)
         {
-            return Regex.Replace(text, @"(\p{P})", "");
+            return Regex.Replace(text, @"(\p{P})", string.Empty);
         }
     }
 }
