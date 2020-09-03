@@ -26,6 +26,10 @@ namespace Doppel
             var parser = new TextParser();
             IDictionary<string, int> wordCounts1 = parser.CountWords(rawText1);
             IDictionary<string, int> wordCounts2 = parser.CountWords(rawText2);
+
+            var analyzer = new TextAnalyzer();
+            double similarityScore = analyzer.Compare(wordCounts1, wordCounts2);
+            Console.WriteLine("The documents are {0:0}% similar.", similarityScore * 100);
         }
     }
 }
